@@ -1,0 +1,10 @@
+/* Task: Generate photo classes from imported list using @each and @use */
+
+@use '11-photos' as names;
+
+@each $name in names.$list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
+

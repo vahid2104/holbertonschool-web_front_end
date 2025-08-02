@@ -1,0 +1,8 @@
+/* Task to create .col-* class from 1 to 4 with using @for loop  */
+
+@for $i from 1 through 4 {
+  .col-#{$i} {
+    width: calc(100 / $i)%;
+  }
+}
+

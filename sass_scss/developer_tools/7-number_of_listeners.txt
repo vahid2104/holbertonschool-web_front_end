@@ -1,0 +1,21 @@
+Click events:
+
+1. dropdown.js:386
+
+2. tab.js:242
+
+3. modal.js:547
+
+4. dropdown.js:527
+
+5. dropdown.js:522
+
+6. collapse.js:371
+
+7. carousel.js:543
+
+8. button.js:142
+
+9. alert.js:144
+
+Answer is "9 times".
