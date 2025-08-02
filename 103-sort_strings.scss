@@ -1,0 +1,8 @@
+/* Task: Import and sort list, then debug */
+
+@use '103-sort_list' as names;
+
+$sorted: sort(names.$list_to_sort);
+
+@debug $sorted;
+
