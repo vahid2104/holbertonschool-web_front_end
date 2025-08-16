@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 160px;     
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.box1 {
+  background: #22b573;     
+  flex: 0 1 80px;             
+  aspect-ratio: 3 / 1.1;      
+  font-size: 0.8rem;
+}
+
+.box2 {
+  background: #2f5ec7;         
+  flex: 0 1 150px;
+  aspect-ratio: 4 / 1.25;
+  font-size: 1rem;
+}
+
+.box3 {
+  background: #1c2b39;         
+  flex: 0 1 300px;
+  aspect-ratio: 5 / 1.8;       
+  font-size: 3rem;
+}
+
+.box4 {
+  background: #8f3acb;        
+  flex: 0 1 150px;
+  aspect-ratio: 4 / 1.25;
+  font-size: 1rem;
+}
+
+.box5 {
+  background: #e97f11;         
+  flex: 0 1 90px;
+  aspect-ratio: 3 / 1.1;
+  font-size: 0.8rem;
+}
