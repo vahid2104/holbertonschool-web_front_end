@@ -690,7 +690,7 @@ nav.nav-item + .nav-item {
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.8);
         z-index: 0;
     }
 
@@ -705,3 +705,4 @@ nav.nav-item + .nav-item {
     padding: 7rem 0 0;
     z-index: 2;
 }
+
